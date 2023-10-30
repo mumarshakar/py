@@ -1,0 +1,17 @@
+# This program calculates if a person is 
+# Suffering From Fever or not
+
+# Get Temp Input from user
+
+f = float(input("Enter Temp in Farenheit: "))
+
+# Convert Farenheit to Celcius
+
+c = 5/9 * (f - 32)
+
+# Check logic for Fever
+
+if c > 37.0 :
+    print("Patient Is Suffering From Fever")
+else:
+    print("No Fever")
